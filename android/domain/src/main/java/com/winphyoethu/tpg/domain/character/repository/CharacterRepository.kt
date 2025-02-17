@@ -7,7 +7,7 @@ import kotlinx.collections.immutable.PersistentList
 import kotlinx.coroutines.flow.Flow
 
 /**
- * API for Recipe Repository
+ * API for Character Repository
  */
 interface CharacterRepository {
 
