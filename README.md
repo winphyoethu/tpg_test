@@ -21,7 +21,7 @@ Native Android Module and React Native Module communicates by using NativeEventE
 ├── ├── 📂 model          # Models to be consumed  in Ui<br>
 ├── ├── 📂 network        # API and network layer<br>
 ├── 📂 features           # Feature module<br>
-├── ├── 📂 recipe         # Recipe Feature<br>
+├── ├── 📂 character      # Character Feature<br>
 ├── 📂 domain             # Domain of the project<br>
 ├── 📄 settings.gradle.kts<br>
 └── 📄 build.gradle.kts<br>
@@ -54,7 +54,7 @@ Native Android Module and React Native Module communicates by using NativeEventE
 
 1. Clone the repository:
 ```
-git clone git@github.com:winphyoethu/coles_test.git
+git clone git@github.com:winphyoethu/tpg_test.git
 cd your-repo
 ```
 2. - Install dependencies
