@@ -22,11 +22,8 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Change to android subfolder
-        run: cd android
-
       - name: Run Lint
-        run: ./gradlew lintDebug
+        run: cd android && ./gradlew lintDebug
 
       - name: Upload Lint Report (HTML)
         uses: actions/upload-artifact@v4
@@ -35,7 +32,7 @@ jobs:
           path: '**/build/reports/lint-results-*.html'
 
       - name: Run Unit Test
-        run: ./gradlew testDebugUnitTest
+        run: cd android && ./gradlew testDebugUnitTest
 
       - name: Upload Unit Test Report (HTML)
         uses: actions/upload-artifact@v4
