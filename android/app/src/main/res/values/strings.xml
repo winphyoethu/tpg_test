@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TPG_test</string>
+
+    <!-- Character Detail -->
+    <string name="character_save_success">Character Save Successful</string>
+    <string name="character_save_fail">Character Save Fail</string>
+
+    <string name="character_remove_success">Character Remove Successful</string>
+    <string name="character_remove_fail">Character Remove Fail</string>
+</resources>
